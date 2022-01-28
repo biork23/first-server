@@ -29,8 +29,6 @@ const server = http.createServer((request, response)=> {
         response.write('Adios :c')
     }else
     
-    
-    response.write('  Hola desde el servidor')
     response.end()
 })
 
