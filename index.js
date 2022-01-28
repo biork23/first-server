@@ -23,7 +23,7 @@ const server = http.createServer((request, response)=> {
         response.write('Hola Mundo')
     }if (request.method == 'POST' && request.url == '/hola'){
         response.write('Aqui puedes crear un recurso')
-    }if(request.method == 'DELETE' && request.url == 'hola'){
+    }if(request.method == 'DELETE' && request.url == '/hola'){
         response.write('Aqui puedes borrar un recurso')
     }if(request.method == 'GET' && request.url == '/adios'){
         response.write('Adios :c')
